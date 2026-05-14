@@ -62,14 +62,14 @@ export default function AboutUs() {
 
   }, { scope: container })
 
-  const headingText = "Meet Abbie".split("")
+  const headingText = "Meet Diva".split("")
 
   return (
     <section id="about" ref={container} className="w-full py-32 md:py-48 bg-[#FDF6EE] relative overflow-hidden text-black px-6 md:px-12">
       <div className="max-w-[1400px] mx-auto">
 
         <div className="text-center mb-24 overflow-hidden pt-4">
-           <h2 className="montserrat-black text-[12vw] md:text-[10rem] leading-[0.8] tracking-tighter text-[#B19CD9] flex justify-center uppercase scale-x-110 origin-center">
+           <h2 className="montserrat-black text-[12vw] md:text-[10rem] leading-[0.8] tracking-tighter text-[#8A1C31] flex justify-center uppercase scale-x-110 origin-center">
              {headingText.map((char, index) => (
                <span key={index} className="about-heading-char inline-block opacity-0 translate-y-[100%] rotate-12 blur-md">
                  {char === " " ? "\u00A0" : char}
@@ -83,21 +83,21 @@ export default function AboutUs() {
           {/* Left Side - Details */}
           <div className="w-full md:w-1/4 flex flex-col gap-12 text-center md:text-left order-2 md:order-1">
             <div className="about-text-left">
-              <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-4">The Face Behind Abbie June Socials</h4>
+              <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-4">The Face Behind MeriKi & Co</h4>
               <p className="montserrat-medium text-sm md:text-base text-black/80 leading-relaxed">
-                Hellloooo, I'm Abbie, founder of Abbie June Socials. A 26 yr old freelancer based in Cheshire.
+                Hi, I'm Diva! Director of MeriKi & Co, the creative-led social media agency.
               </p>
             </div>
             <div className="about-text-left">
-              <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-4">Experience</h4>
+              <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-4">Our Approach</h4>
               <p className="montserrat-medium text-sm md:text-base text-black/80 leading-relaxed">
-                7+ years experience in social media marketing, from creating content on my living room floor for my food blog at uni, to going in-house for a few years before taking the leap into freelance.
+                We blend strategy, soul and cultural intelligence to get your brand seen, remembered and chosen, while giving you back the time to build your empire.
               </p>
             </div>
             <div className="about-text-left">
-              <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-4">What I Do</h4>
+              <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-4">Our Mission</h4>
               <p className="montserrat-medium text-sm md:text-base text-black/80 leading-relaxed">
-                Now I run my own business full-time helping brands show up properly on social - building communities & creating content people actually care about.
+                We work with international brands, create content that reaches millions, and give founders their time back.
               </p>
             </div>
           </div>
@@ -131,15 +131,15 @@ export default function AboutUs() {
           <div className="w-full md:w-1/4 flex flex-col gap-12 text-center md:text-right order-3 md:order-3">
             <div className="about-text-right flex flex-col items-center md:items-end">
               <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-2">Vibe</h4>
-              <p className="montserrat-medium text-5xl md:text-7xl text-[#B19CD9] tracking-tighter">AuDHD</p>
+              <p className="montserrat-medium text-5xl md:text-7xl text-[#8A1C31] tracking-tighter">Soul</p>
             </div>
             <div className="about-text-right flex flex-col items-center md:items-end">
               <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-2">Hobbies</h4>
-              <p className="montserrat-medium text-5xl md:text-7xl text-[#FFB6C1] tracking-tighter">Crafts</p>
+              <p className="montserrat-medium text-5xl md:text-7xl text-[#E8D0C9] tracking-tighter">Creative</p>
             </div>
             <div className="about-text-right flex flex-col items-center md:items-end">
               <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-2">Addiction</h4>
-              <p className="montserrat-medium text-5xl md:text-7xl text-[#ADD8E6] tracking-tighter">Vinted</p>
+              <p className="montserrat-medium text-5xl md:text-7xl text-[#6E8B3D] tracking-tighter">Strategy</p>
             </div>
             <div className="about-text-right flex flex-col items-center md:items-end">
               <h4 className="uppercase tracking-[0.2em] text-[10px] md:text-xs text-black/40 font-bold mb-2">Community</h4>

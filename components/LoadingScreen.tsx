@@ -3,7 +3,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const WORDS = ['Post', 'Engage', 'Grow'];
+const WORDS = ['Strategy', 'Creative', 'Soul'];
 const TOTAL_DURATION = 2700; // ms
 
 export default function LoadingScreen({ onComplete }: { onComplete: () => void }) {
@@ -68,7 +68,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
           <motion.span
             key={wordIndex}
             className="text-4xl md:text-6xl lg:text-7xl cormorant-font italic"
-            style={{ color: '#B19CD9' }}
+            style={{ color: '#8A1C31' }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}

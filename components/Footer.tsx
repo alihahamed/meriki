@@ -74,7 +74,7 @@ export default function Footer() {
       {/* Background Aurora */}
       <div className="footer-aurora absolute inset-0 z-0">
         <Aurora 
-          colorStops={['#B19CD9', '#C8A2D4', '#9B72B0']} 
+          colorStops={['#8A1C31', '#E8D0C9', '#6E8B3D']} 
           blend={0.5} 
           amplitude={3} 
           speed={1} 
@@ -93,18 +93,18 @@ export default function Footer() {
         
         <div 
           className="footer-cta-btn flex items-center gap-4 group cursor-pointer mt-6"
-          onClick={() => window.open('https://instagram.com', '_blank')}
+          onClick={() => window.open('https://instagram.com/merikiandco', '_blank')}
         >
           <div className="relative overflow-hidden flex flex-col text-right leading-tight montserrat-medium text-xl md:text-2xl lg:text-3xl text-black pb-1">
             <span className="group-hover:-translate-y-[120%] block transition-transform duration-500 ease-in-out">
               Instagram
             </span>
-            <span className="absolute right-0 top-0 translate-y-[120%] group-hover:translate-y-0 block transition-transform duration-500 ease-in-out text-[#B19CD9]">
+            <span className="absolute right-0 top-0 translate-y-[120%] group-hover:translate-y-0 block transition-transform duration-500 ease-in-out text-[#8A1C31]">
               Instagram
             </span>
           </div>
           <div className="relative overflow-hidden w-12 h-12 md:w-16 md:h-16 rounded-full border border-black flex items-center justify-center text-black group-hover:text-white transition-colors duration-500 z-10 shrink-0">
-            <div className="absolute left-0 w-full bg-[#B19CD9] h-[150%] top-[100%] rounded-t-[100%] group-hover:top-0 group-hover:rounded-t-none transition-all duration-500 ease-in-out -z-10"></div>
+            <div className="absolute left-0 w-full bg-[#8A1C31] h-[150%] top-[100%] rounded-t-[100%] group-hover:top-0 group-hover:rounded-t-none transition-all duration-500 ease-in-out -z-10"></div>
             <ArrowUpRight size={24} strokeWidth={1.5} className="group-hover:rotate-45 transition-transform duration-500" />
           </div>
         </div>
@@ -116,18 +116,18 @@ export default function Footer() {
           className="footer-massive-text w-full montserrat-hero text-black tracking-tighter whitespace-nowrap text-center"
           style={{ fontSize: 'clamp(3rem, 16vw, 20rem)', letterSpacing: '-0.04em' }}
         >
-          Abbie June
+          MeriKi & Co
         </h1>
       </div>
 
       {/* Links Row - placed below the massive text */}
       <div className="footer-links relative z-10 w-full flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-6 montserrat-medium text-xs md:text-sm text-black/60 border-t border-black/10 bg-white gap-4 md:gap-0">
         <div>
-          © 2026 Abbie June Socials
+          © 2026 MeriKi & Co
         </div>
         <div className="flex items-center gap-5">
-          <a href="#" className="hover:text-[#B19CD9] transition-colors"><Mail size={18} /></a>
-          <a href="#" className="hover:text-[#B19CD9] transition-colors">
+          <a href="#" className="hover:text-[#8A1C31] transition-colors"><Mail size={18} /></a>
+          <a href="#" className="hover:text-[#8A1C31] transition-colors">
             <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" className="w-[18px] h-[18px]">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
             </svg>

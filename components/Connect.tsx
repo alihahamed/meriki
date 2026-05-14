@@ -74,7 +74,7 @@ export default function Connect() {
                 Book a Call!
               </h2>
               {/* Optional separator dot or star */}
-              <span className="text-[#B19CD9]" style={{ fontSize: 'clamp(1.5rem, 8vw, 10rem)' }}>✦</span>
+              <span className="text-[#8A1C31]" style={{ fontSize: 'clamp(1.5rem, 8vw, 10rem)' }}>✦</span>
             </div>
           ))}
         </div>
@@ -91,12 +91,12 @@ export default function Connect() {
                 type="text" 
                 id="name"
                 required
-                className="w-full bg-transparent border-b border-black/30 py-3 outline-none transition-colors duration-300 focus:border-[#B19CD9] peer text-lg md:text-xl montserrat-medium" 
+                className="w-full bg-transparent border-b border-black/30 py-3 outline-none transition-colors duration-300 focus:border-[#8A1C31] peer text-lg md:text-xl montserrat-medium" 
                 placeholder=" " 
               />
               <label 
                 htmlFor="name"
-                className="absolute left-0 top-7 text-black/50 transition-all duration-300 pointer-events-none peer-focus:top-0 peer-focus:text-xs peer-focus:text-[#B19CD9] peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs montserrat-medium uppercase tracking-widest"
+                className="absolute left-0 top-7 text-black/50 transition-all duration-300 pointer-events-none peer-focus:top-0 peer-focus:text-xs peer-focus:text-[#8A1C31] peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs montserrat-medium uppercase tracking-widest"
               >
                 Name
               </label>
@@ -108,12 +108,12 @@ export default function Connect() {
                 type="email" 
                 id="email"
                 required
-                className="w-full bg-transparent border-b border-black/30 py-3 outline-none transition-colors duration-300 focus:border-[#B19CD9] peer text-lg md:text-xl montserrat-medium" 
+                className="w-full bg-transparent border-b border-black/30 py-3 outline-none transition-colors duration-300 focus:border-[#8A1C31] peer text-lg md:text-xl montserrat-medium" 
                 placeholder=" " 
               />
               <label 
                 htmlFor="email"
-                className="absolute left-0 top-7 text-black/50 transition-all duration-300 pointer-events-none peer-focus:top-0 peer-focus:text-xs peer-focus:text-[#B19CD9] peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs montserrat-medium uppercase tracking-widest"
+                className="absolute left-0 top-7 text-black/50 transition-all duration-300 pointer-events-none peer-focus:top-0 peer-focus:text-xs peer-focus:text-[#8A1C31] peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs montserrat-medium uppercase tracking-widest"
               >
                 Email
               </label>
@@ -125,12 +125,12 @@ export default function Connect() {
                 type="text" 
                 id="message"
                 required
-                className="w-full bg-transparent border-b border-black/30 py-3 outline-none transition-colors duration-300 focus:border-[#B19CD9] peer text-lg md:text-xl montserrat-medium" 
+                className="w-full bg-transparent border-b border-black/30 py-3 outline-none transition-colors duration-300 focus:border-[#8A1C31] peer text-lg md:text-xl montserrat-medium" 
                 placeholder=" " 
               />
               <label 
                 htmlFor="message"
-                className="absolute left-0 top-7 text-black/50 transition-all duration-300 pointer-events-none peer-focus:top-0 peer-focus:text-xs peer-focus:text-[#B19CD9] peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs montserrat-medium uppercase tracking-widest"
+                className="absolute left-0 top-7 text-black/50 transition-all duration-300 pointer-events-none peer-focus:top-0 peer-focus:text-xs peer-focus:text-[#8A1C31] peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs montserrat-medium uppercase tracking-widest"
               >
                 Message
               </label>
@@ -143,12 +143,12 @@ export default function Connect() {
               <span className="group-hover:-translate-y-[120%] block transition-transform duration-500 ease-in-out">
                 Book a call
               </span>
-              <span className="absolute right-0 top-0 translate-y-[120%] group-hover:translate-y-0 block transition-transform duration-500 ease-in-out text-[#B19CD9]">
+              <span className="absolute right-0 top-0 translate-y-[120%] group-hover:translate-y-0 block transition-transform duration-500 ease-in-out text-[#8A1C31]">
                 Book a call
               </span>
             </div>
             <div className="relative overflow-hidden w-12 h-12 md:w-16 md:h-16 rounded-full border border-black flex items-center justify-center text-black group-hover:text-white transition-colors duration-500 z-10 shrink-0">
-              <div className="absolute left-0 w-full bg-[#B19CD9] h-[150%] top-[100%] rounded-t-[100%] group-hover:top-0 group-hover:rounded-t-none transition-all duration-500 ease-in-out -z-10"></div>
+              <div className="absolute left-0 w-full bg-[#8A1C31] h-[150%] top-[100%] rounded-t-[100%] group-hover:top-0 group-hover:rounded-t-none transition-all duration-500 ease-in-out -z-10"></div>
               <ArrowUpRight size={24} strokeWidth={1.5} className="group-hover:rotate-45 transition-transform duration-500" />
             </div>
           </button>

@@ -70,7 +70,7 @@ export default function MenuOverlay({ isOpen, onClose }: { isOpen: boolean, onCl
             <span className="group-hover:-translate-y-[120%] block transition-transform duration-500 ease-in-out">
               CLOSE
             </span>
-            <span className="absolute left-0 top-0 translate-y-[120%] group-hover:translate-y-0 block transition-transform duration-500 ease-in-out text-[#B19CD9]">
+            <span className="absolute left-0 top-0 translate-y-[120%] group-hover:translate-y-0 block transition-transform duration-500 ease-in-out text-[#8A1C31]">
               CLOSE
             </span>
           </div>
@@ -89,7 +89,7 @@ export default function MenuOverlay({ isOpen, onClose }: { isOpen: boolean, onCl
                    <span className="block group-hover:-translate-y-[120%] transition-transform duration-500 ease-in-out">
                      {item.name}
                    </span>
-                    <span className="absolute left-0 top-0 w-full text-right block translate-y-[120%] group-hover:translate-y-0 transition-transform duration-500 ease-in-out text-[#B19CD9]">
+                    <span className="absolute left-0 top-0 w-full text-right block translate-y-[120%] group-hover:translate-y-0 transition-transform duration-500 ease-in-out text-[#8A1C31]">
                      {item.name}
                    </span>
                  </h2>
